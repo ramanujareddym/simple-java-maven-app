@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("D:\TMB\Codebase\Backend\simple-java-maven-app") {
+                dir("D:/TMB/Codebase/Backend/simple-java-maven-app") {
                 sh 'mvn -B -DskipTests clean package'
                 }
             }
